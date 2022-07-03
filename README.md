@@ -32,7 +32,7 @@ Tools to work with android .dex and java .class files
 
 ### To use the prebuilt releases (unique to this fork):
 3. Unzip the file dex-tools-2.2-SNAPSHOT.zip.
-4. Tun d2j-dex2jar.sh from the unzipped directory
+4. Run d2j-dex2jar.sh or d2j-dex2jar.exe from the unzipped directory
 
 ### Example usage:
 > sh d2j-dex2jar.sh -f ~/path/to/apk_to_decompile.apk
