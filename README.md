@@ -1,5 +1,6 @@
 # dex2jar
 
+
 **Project move to [GitHub](https://github.com/pxb1988/dex2jar)**
 
 | _ | Mirror | Wiki | Downloads | Issues |
@@ -22,10 +23,16 @@ Tools to work with android .dex and java .class files
 
 ## Usage
 
+
+### To build it yourself:
 1. In the root directory run: ./gradlew distZip
 2. cd dex-tools/build/distributions
 3. Unzip the file dex-tools-2.1-SNAPSHOT.zip (file size should be ~5 MB)
 4. Run d2j-dex2jar.sh from the unzipped directory
+
+### To use the prebuilt releases (unique to this fork):
+3. Unzip the file dex-tools-2.2-SNAPSHOT.zip.
+4. Tun d2j-dex2jar.sh from the unzipped directory
 
 ### Example usage:
 > sh d2j-dex2jar.sh -f ~/path/to/apk_to_decompile.apk
